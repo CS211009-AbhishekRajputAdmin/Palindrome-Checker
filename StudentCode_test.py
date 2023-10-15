@@ -10,7 +10,7 @@ def test_hello():
     for expected in expectedList:
         testArg = testList[i]                                                                  # use these lOCs while using list object
         print("Testing: Test case",testArg,"Expected",expected)
-        print("Testing: Test case","Expected",expected)
+        #print("Testing: Test case","Expected",expected)
         expectedIO.print(expected)
         assert SCOPP_tester.test(testArg ,testIO = testIO,expectedIO = expectedIO)
         #assert SCOPP_tester.test(testIO = testIO,expectedIO = expectedIO)

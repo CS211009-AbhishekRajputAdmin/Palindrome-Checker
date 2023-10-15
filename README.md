@@ -10,7 +10,7 @@ Write a Python program to determine if a given integer is a palindrome number or
 - The input integer `num` can be at most 9 digits long.
 
 ### Output
-- Print "Yes" if the number is a palindrome; otherwise, print "No."
+- Print "Yes" if the number is a palindrome; otherwise, print "No"
 
 ### Examples
 ```
