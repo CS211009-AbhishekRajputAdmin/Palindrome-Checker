@@ -1,52 +1,47 @@
+# Palindrome Number Checker
+
 ## Description:
- Write a Python program to determine if a given number is an Armstrong number or not.  An Armstrong number is a special kind of number where the sum of its individual digits, each raised to a certain power, is equal to the number itself. In simpler terms:
+Write a Python program to determine if a given integer is a palindrome number or not. A palindrome number is one that remains the same when its digits are reversed.
 
-Take a number (for example, 153).
-Break it down into its individual digits (1, 5, and 3).
-Raise each digit to a certain power (usually to the power of the number of digits, which is 3 in this case).
-Add up these results.
-If the sum is the same as the original number (153), it's an Armstrong number.
-So, in the case of 153, you would calculate: 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153. Since the sum is equal to the original number, 153 is an Armstrong number.
+### Input 
+- An integer `num` (1 ≤ num ≤ 10^9) to be checked for being a palindrome.
 
-### Input:
-- An integer `num` (1 ≤ num ≤ 10^6) to be checked for being an Armstrong number.
+### Constraints
+- The input integer `num` can be at most 9 digits long.
 
-### Constraints:
-- The input integer `num` will have at most 6 digits.
+### Output
+- Print "Yes" if the number is a palindrome; otherwise, print "No."
 
-### Output:
-- Print "Yes" if the number is an Armstrong number; otherwise, print "No."
-
-**Examples:**
+### Examples
 ```
 Input:
-153
+121
 
 Output:
 Yes
 
 Explanation:
-153 is an Armstrong number because 1^3 + 5^3 + 3^3 = 153.
+121 is a palindrome because it reads the same forwards and backwards.
 
 ---
 
 Input:
-370
+12321
 
 Output:
 Yes
 
 Explanation:
-370 is an Armstrong number because 3^3 + 7^3 + 0^3 = 370.
+12321 is a palindrome because it reads the same forwards and backwards.
 
 ---
 
 Input:
-123
+12345
 
 Output:
 No
 
 Explanation:
-123 is not an Armstrong number because 1^3 + 2^3 + 3^3 ≠ 123.
+12345 is not a palindrome because it does not read the same forwards and backwards.
 ```
