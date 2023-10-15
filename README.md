@@ -50,5 +50,3 @@ No
 Explanation:
 123 is not an Armstrong number because 1^3 + 2^3 + 3^3 ≠ 123.
 ```
-
-This question checks if the given input number is an Armstrong number, following the Armstrong number definition. The constraints ensure that the input remains within a reasonable range.
